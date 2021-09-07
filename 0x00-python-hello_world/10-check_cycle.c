@@ -13,19 +13,17 @@
  */
 int check_cycle(listint_t *list)
 {
-	const char *path = "10-main.c";
-	char buf[1014];
-	int fd = open(path, O_RDONLY), count_rd, i;
-	(void)list;
+	listint_t *aux = list;
 
-	count_rd = read(fd, buf, 1024);
-
-	for (i = 0; i < count_rd; i++)
+	while (list != NULL)
 	{
-		if (buf[i] == 'w' && buf[i + 1] == 'h' && buf[i + 2] == 'i' && buf[i + 3] == 'l' && buf[i + 4] == 'e')
-			return (1);
-		if (buf[i] == 'f' && buf[i + 1] == 'o' && buf[i + 2] == 'r')
-			return (1);
+		while (aux != NULL)
+		{
+			aux = aux->next;
+			if (aux == list)
+				return (1);
+		}
+		list = list->next;
 	}
 
 	return (0);
