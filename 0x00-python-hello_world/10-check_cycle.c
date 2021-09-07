@@ -20,7 +20,7 @@ int check_cycle(listint_t *list)
 		while (aux != NULL)
 		{
 			aux = aux->next;
-			if (aux == list)
+			if ((aux) == (list))
 				return (1);
 		}
 		list = list->next;
