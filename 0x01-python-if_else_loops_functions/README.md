@@ -18,3 +18,4 @@
 | 13-insert_number.c | This function in C inserts a number into a sorted singly linked list. The number should to be saved in ascending order |
 | 100-print_tebahpla.py | This program prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase), not followed by a new line |
 | 101-remove_char_at.py | This function create a copy of the string, removing the character at the position n (not the Python way, the “C array index”) |
+| 102-magic_calculation.py | This function does exactly the same then Python bytecode |
