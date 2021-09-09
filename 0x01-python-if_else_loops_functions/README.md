@@ -16,3 +16,5 @@
 | 11-pow.py | This function computes a number to the power of other and return the value |
 | 12-fizzbuzz.py | This function print the numbers from 1 to 100, if is multiple of 3 or 5, print Fizz Buzz respectively |
 | 13-insert_number.c | This function in C inserts a number into a sorted singly linked list. The number should to be saved in ascending order |
+| 100-print_tebahpla.py | This program prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase), not followed by a new line |
+| 101-remove_char_at.py | This function create a copy of the string, removing the character at the position n (not the Python way, the “C array index”) |
