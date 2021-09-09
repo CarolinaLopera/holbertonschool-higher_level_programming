@@ -1,4 +1,4 @@
-## This is a projetc about statements if, elif, else and loops.
+## This is a projetc about statements if, elif, else and loops in Python.
 
 | Script | Description |
 | ------ | ------ |
