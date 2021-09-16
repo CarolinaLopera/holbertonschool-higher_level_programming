@@ -7,3 +7,5 @@ def search_replace(my_list, search, replace):
         else:
             new_list.append(i)
     return new_list
+
+	# new_list = my_list[:]
