@@ -1,6 +1,6 @@
 ## This is a projetc about ... in Python.
 
-| # | Function | Description |
+|# | Function | Description |
 | - | ------ | ------ |
 | 0 | square_matrix_simple | This function computes the square value of all integers of a matrix |
 | 1 | search_replace | This function replaces all occurrences of an element by another in a new list |
