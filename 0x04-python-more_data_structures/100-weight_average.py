@@ -10,5 +10,10 @@ def weight_average(my_list=[]):
 
     return mul / div
 
-	# numerator = sum([my_list[i[0]]*my_list[i[1]] for i in range(len(mi_list))])
-	# denominator = sum(my_list[i[1]])
+	# numerator = sum([distribution[i]*weights[i] for i in range(len(distribution))])
+    # denominator = sum(weights)
+	# return round(numerator/denominator, 2)
+	# weighted_sum = []
+    # for salary, weight in zip(distribution, weights):
+    #     weighted_sum.append(salary * weight)
+    # return round(sum(weighted_sum) / sum(weights),2)
