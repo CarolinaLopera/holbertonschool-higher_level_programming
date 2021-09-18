@@ -9,3 +9,6 @@ def weight_average(my_list=[]):
         div += i[1]
 
     return mul / div
+
+	# numerator = sum([my_list[i[0]]*my_list[i[1]] for i in range(len(mi_list))])
+	# denominator = sum(my_list[i[1]])
