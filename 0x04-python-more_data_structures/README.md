@@ -1,7 +1,7 @@
 ## This is a projetc about ... in Python.
 
 | # | Function | Description |
-| --- | ------ | ------ |
+| - | ------ | ------ |
 | 0 | square_matrix_simple | This function computes the square value of all integers of a matrix |
 | 1 | search_replace | This function replaces all occurrences of an element by another in a new list |
 | 2 | uniq_add | This function adds all unique integers in a list (only once for each integer) |
