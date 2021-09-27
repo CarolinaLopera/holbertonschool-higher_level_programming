@@ -7,7 +7,7 @@
 | 2 | safe_print_list_integers | This function prints the first **x** elements of a list and only integers. |
 | 3 | safe_print_division | This function divides 2 integers and prints the result (using try: / except: / finally:). |
 | 4 | list_division | This function  divides element by element 2 lists. |
-|  |  | This function  |
-|  |  | This function  |
+| 5 | raise_exception | This function raises a type exception. |
+| 6 | raise_exception_msg | This function raises a name exception with a message. |
 |  |  | This function  |
 |  |  | This function  |
