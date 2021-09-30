@@ -72,6 +72,7 @@ class Rectangle:
         print("Bye rectangle...")
         type(self).number_of_instances -= 1
 
+    @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         if isinstance(rect_1, Rectangle) is False:
             raise TypeError("rect_1 must be an instance of Rectangle")
@@ -81,8 +82,7 @@ class Rectangle:
         val2 = rect_2.width * rect_2.height
         if val1 >= val2:
             return rect_1
-        else:
-            return rect_2
+        return rect_2
 
     def square(cls, size=0):
         '''Returns a new instance of Rectangle'''
