@@ -63,3 +63,6 @@ class Rectangle:
         str = "Rectangle(" + repr(self.__width)
         str += ', ' + repr(self.__height) + ')'
         return str
+
+    def __del__(self):
+        print("Bye rectangle...")
