@@ -52,11 +52,12 @@ class Square:
         if self.square == 0:
             print()
             return
-        for j in range(self.__position[1]):
-            if self.__position[1] > 0:
-                continue
-            else:
-                print(" ", end="")
+        # for j in range(self.__position[1]):
+        #     if self.__position[1] > 0:
+        #         continue
+        #     else:
+        #         print(" ", end="")
+        [print("") for i in range(0, self.__position[1])]
         for i in range(self.square):
             for j in range(self.__position[0]):
                 print(" ", end="")
