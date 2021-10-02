@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Class Magic'''
+import math
 
 
 class MagicClass:
@@ -18,4 +18,4 @@ class MagicClass:
 
     def circumference(self):
         '''This method computes the circumference'''
-        return (2 * math.pi * self.__radius)
+        return 2 * math.pi * self.__radius
