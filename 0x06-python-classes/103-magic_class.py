@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import math
-
+'''Class Magic'''
 
 class MagicClass:
     '''This class is a magic class to bytecode'''
