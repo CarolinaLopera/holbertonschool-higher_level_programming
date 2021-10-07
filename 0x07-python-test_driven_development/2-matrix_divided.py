@@ -21,7 +21,7 @@ def matrix_divided(matrix, div):
     for i in range(len(new_matrix)):
         for j in range(len(new_matrix[i])):
             if isinstance(new_matrix[i][j], (int, float)) is False:
-                raise TypeError("matrix must be a matrix"
+                raise TypeError("matrix must be a matrix "
                                 "(list of lists) of integers/floats")
             new_matrix[i][j] = round(new_matrix[i][j] / div, 2)
         if flag is False:
