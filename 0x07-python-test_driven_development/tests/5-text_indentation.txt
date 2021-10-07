@@ -1,0 +1,36 @@
+'''Test file'
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("Hola")
+Hola
+
+>>> text_indentation("Hola Mundo")
+Hola Mundo
+
+>>> text_indentation("Hola... Mundo?")
+Hola.
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+Mundo?
+<BLANKLINE>
+
+>>> text_indentation(":Hola Mundo:")
+:
+<BLANKLINE>
+Hola Mundo:
+<BLANKLINE>
+
+>>> text_indentation(" Hola Mundo ")
+ Hola Mundo 
+
+>>> text_indentation(8)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> import os
+>>> os.popen('pycodestyle 5-text_indentation.py').read()
+''
