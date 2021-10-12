@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''This funtion print all attribites 
+'''This funtion print all attribites
 of a class'''
 
 
