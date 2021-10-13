@@ -5,6 +5,6 @@ and it is write in the stdout'''
 
 def read_file(filename=""):
     '''filename is de name of the file'''
-    with open(filename, encoding="utf-8") as f:
+    with open(filename) as f:
         read_file = f.read()
         print(read_file)
