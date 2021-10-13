@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-# get module
-import json
 '''This function return a Json
 representation of a string'''
+import json
 
 
 def to_json_string(my_obj):
