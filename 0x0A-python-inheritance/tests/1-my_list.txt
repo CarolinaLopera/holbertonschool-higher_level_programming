@@ -1,7 +1,0 @@
-'''Test file'''
-
->>> MyList = __import__('1-my_list').MyList
-
->>> list = MyList([8, 6, 8, 5, 10])
->>> list.print_sorted()
-[5, 6, 8, 8, 10]
