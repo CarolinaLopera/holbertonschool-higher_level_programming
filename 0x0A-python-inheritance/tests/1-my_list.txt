@@ -22,3 +22,10 @@
 >>> list = MyList(None)
 Traceback (most recent call last):
 TypeError: 'NoneType' object is not iterable
+
+>>> list = MyList()
+>>> list.append(10)
+>>> list.append(5)
+>>> list.append(8)
+>>> list.print_sorted()
+[5, 8, 10]
