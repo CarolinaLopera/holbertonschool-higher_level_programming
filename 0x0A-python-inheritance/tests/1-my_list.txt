@@ -18,3 +18,7 @@
 
 >>> list
 ['h', 'o', 'l', 'a']
+
+>>> list = MyList(None)
+Traceback (most recent call last):
+TypeError: 'NoneType' object is not iterable
