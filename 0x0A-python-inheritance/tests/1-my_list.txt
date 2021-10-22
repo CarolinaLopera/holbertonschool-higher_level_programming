@@ -29,3 +29,7 @@ TypeError: 'NoneType' object is not iterable
 >>> list.append(8)
 >>> list.print_sorted()
 [5, 8, 10]
+
+>>> list = MyList()
+>>> print(list.print_sorted)
+<bound method MyList.print_sorted of []>
