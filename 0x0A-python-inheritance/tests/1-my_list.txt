@@ -5,3 +5,16 @@
 >>> list = MyList([8, 6, 8, 5, 10])
 >>> list.print_sorted()
 [5, 6, 8, 8, 10]
+
+>>> list = MyList([])
+
+>>> list
+[]
+
+>>> list = MyList("hola")
+
+>>> list.print_sorted()
+['a', 'h', 'l', 'o']
+
+>>> list
+['h', 'o', 'l', 'a']
