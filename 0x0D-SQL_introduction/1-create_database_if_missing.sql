@@ -1,2 +1,3 @@
 -- This script create a database in MySQL server.
-CREATE DATABASE hbtn_0c_0;
+IF hbtn_0c_0('dms') IS NULL
+    CREATE DATABASE hbtn_0c_0;
