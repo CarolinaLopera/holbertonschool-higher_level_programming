@@ -1,3 +1,3 @@
 -- This script create a database in MySQL server.
-IF `hbtn_0c_0` NOT EXISTS
+IF NOT EXISTS `hbtn_0c_0`
     CREATE DATABASE hbtn_0c_0;
