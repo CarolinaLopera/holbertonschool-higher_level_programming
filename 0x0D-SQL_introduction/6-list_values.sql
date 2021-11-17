@@ -1,2 +1,3 @@
 -- This script lists all rows of a table of a database
-SHOW ROWS FROM first_table;
+SHOW CREATE TABLE first_table.rows
+
