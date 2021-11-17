@@ -1,2 +1,2 @@
 -- This script delete a database in MySQL server.
-DELETE * FROM hbtn_0c_0 IF EXISTS;
+DROP DATABASE IF EXISTS hbtn_0c_0;
