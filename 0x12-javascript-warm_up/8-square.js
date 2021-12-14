@@ -14,7 +14,9 @@ if (isNaN(number) === false) {
       x += '\n';
     }
   }
-  console.log(x);
+  if (number > 0) {
+    console.log(x);
+  }
 } else {
   console.log('Missing size');
 }
