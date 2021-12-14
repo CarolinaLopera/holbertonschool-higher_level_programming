@@ -7,9 +7,9 @@ let i, j;
 if (isNaN(number) === false) {
   for (i = 0; i < number; i++) {
     for (j = 1; j < number; j++) {
-      x += 'x';
+      x += 'X';
     }
-    x += 'x';
+    x += 'X';
     if (i < number - 1) {
       x += '\n';
     }
