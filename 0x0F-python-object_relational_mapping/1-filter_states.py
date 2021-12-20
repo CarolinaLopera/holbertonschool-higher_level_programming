@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-  
+
 '''Lists all states from a database'''
 import MySQLdb
 from sys import argv
