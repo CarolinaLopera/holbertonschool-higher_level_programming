@@ -2,6 +2,6 @@
 
 const request = require('request');
 
-request.get(process.argv[2], res => {
-  console.log('code: ', res.statusCode);
+request.get(process.argv[2]).on('response', response => {
+  console.log('code:', response.statusCode);
 });
